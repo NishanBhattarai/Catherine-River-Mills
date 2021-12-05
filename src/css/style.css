@@ -32,6 +32,9 @@ header{
 .c-nav-link{
     color: #fff !important; 
 }
+.c-nav-link:hover{
+    color: #ff486a !important;
+}
 .c-active{
     color: #ff486a !important;
 }
@@ -42,6 +45,9 @@ header{
 }
 .c-close{
     color: #fff;
+}
+.c-btn-search{
+    font-size: 20px;
 }
 /* Banner */
 .banner {
