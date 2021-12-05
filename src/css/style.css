@@ -1,0 +1,272 @@
+*{
+    padding:0px; 
+    margin:0px;
+}
+.c-row{
+    margin: 0px !important;
+    padding: 0px !important;
+}
+.c-col{
+    margin: 0px !important;
+    padding: 0px !important;
+}
+/* Navigation Bar */
+header{
+    position: absolute;
+    z-index: 9;
+    width: 100%;
+}
+.c-navbar{
+    border-bottom: #bbb solid 1px;
+}
+.c-navbar-brand{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    color:#fff;
+}
+.c-navbar-nav{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    
+}
+.c-nav-link{
+    color: #fff !important; 
+}
+.c-active{
+    color: #ff486a !important;
+}
+/* Search Modal */
+.c-modal-content{
+     background-color: rgba(0,0,0,0);
+     padding-top: 100px;
+}
+.c-close{
+    color: #fff;
+}
+/* Banner */
+.banner {
+    background: url(../img/2.jpg) no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
+    height:700px;
+    position: relative;
+    z-index: 1;
+}
+.banner::after {
+    background-color: #000;
+    content: "";
+    left: 0;
+    opacity: 0.7;
+    top: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+.banner-content{
+    padding-top: 250px;
+    color: #fff;
+}
+
+.c-heading-1{
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+}
+.c-lead{
+    font-family: 'Montserrat', sans-serif ;
+    font-size: 18px;
+}
+.c-btn-read-more{
+    font-size: 20px;
+}
+
+/* Footer */
+footer{
+    background-color: #111;
+    color: #fff;
+}
+.c-footer-brand{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    color:#fff;
+}
+.useful-link{
+    font-family: 'Montserrat', sans-serif ;
+}
+.underline{
+    border-bottom: #ff486a 2px solid;
+    border-radius: 4px;
+    width: 15%;
+}
+.footer-descript{
+    font-family: 'Montserrat', sans-serif ;
+    font-size: 18px;
+    color: #929497;
+}
+.c-footer-link{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color:#929497 !important;
+}
+.footer-bottom{
+    border-top: #929497 1px solid;
+}
+.site-info{
+    color:#929497;
+    font-family: 'Montserrat', sans-serif ;
+    font-size: 18px;
+}
+
+/* CSS with Size Responsive */
+
+/* Navigation Bar Responsiveness */
+@media(max-width:991px){
+    .c-navbar{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        margin: 0px !important;
+    }
+    .c-navbar-brand{
+        margin-left: 10px;
+    }
+    .c-toggler-button{
+        margin-right: 40px;
+    }
+    #navbarNavAltMarkup{
+        background-color: #555555;
+    }
+    .c-nav-link{
+        font-size: 17px;
+    }
+    .site-info{
+        font-size: 16px;
+    }
+}
+/* Navigation Bar Responsiveness Close*/
+
+@media(max-width:540px){
+    /* Navbar */
+    .c-navbar-brand{
+        font-size: 32px;
+        padding: 0px !important;
+    }
+    /* Banner */
+    .banner-content{
+        padding-top: 120px;
+        padding-left: 0px !important;
+    }
+    .c-heading-1{
+        font-size: 35px;
+        padding-left: 0px !important;
+    }
+    .c-lead{
+        font-size: 16px;
+        padding-left: 0px !important;
+    }
+    .c-btn-read-more{
+        font-size: 16px;
+    }
+
+    /* Footer */
+    .c-footer-brand{
+        font-size: 32px;
+        padding: 0px !important;
+    }
+    .useful-link{
+        font-size: 27px;
+    }
+    .footer-descript{
+        font-size: 16px;
+        padding-left: 0px !important;
+    }
+    .c-footer-link{
+        font-size: 16px;
+    }
+    .site-info{
+        font-size: 16px;
+    }
+}
+@media(max-width:450px){
+    /* Navbar */
+    .c-navbar-brand{
+        font-size: 32px;
+        padding: 0px !important;
+    }
+    /* Banner */
+    .banner-content{
+        padding-top: 120px;
+        padding-left: 0px !important;
+    }
+    .c-heading-1{
+        font-size: 30px;
+        padding-left: 0px !important;
+    }
+    .c-lead{
+        font-size: 16px;
+        padding-left: 0px !important;
+    }
+    .c-btn-read-more{
+        font-size: 16px;
+    }
+    /* Footer */
+    .c-footer-brand{
+        font-size: 32px;
+        padding: 0px !important;
+    }
+    .footer-descript{
+        font-size: 16px;
+        padding-left: 0px !important;
+    }
+    .useful-link{
+        font-size: 27px;
+    }
+    .c-footer-link{
+        font-size: 16px;
+    }
+    .site-info{
+        font-size: 16px;
+    }
+}
+@media(max-width:320px){
+    /* Navbar */
+    .c-navbar-brand{
+        font-size: 28px;
+        padding: 0px !important;
+    }
+    /* Banner */
+    .banner-content{
+        padding-top: 120px;
+        padding-left: 0px !important;
+    }
+    .c-heading-1{
+        font-size: 25px;
+        padding-left: 0px !important;
+    }
+    .c-lead{
+        font-size: 14px;
+        padding-left: 0px !important;
+    }
+    .c-btn-read-more{
+        font-size: 15px;
+    }
+    /* Footer */
+    .c-footer-brand{
+        font-size: 28px;
+        padding: 0px !important;
+    }
+    .footer-descript{
+        font-size: 16px;
+        padding-left: 0px !important;
+    }
+    .useful-link{
+        font-size: 20px;
+    }
+    .c-footer-link{
+        font-size: 16px;
+    }    .site-info{
+        font-size: 16px;
+    }
+}
